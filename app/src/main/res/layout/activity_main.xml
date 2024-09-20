@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/Note1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note 1"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Note2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note 2"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Note3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note 3"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/Note4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note 4"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer la moyenne" />
+
+    <TextView
+        android:id="@+id/DisplayResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/result_placeholder"
+        android:textAlignment="center"/>
+
+</LinearLayout>
